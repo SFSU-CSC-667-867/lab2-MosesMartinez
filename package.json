@@ -1,0 +1,22 @@
+{
+  "name": "lab2",
+  "version": "1.0.0",
+  "description": "for lab2 csc667",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SFSU-CSC-667-867/lab2-MosesMartinez.git"
+  },
+  "author": "Moses Martinez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SFSU-CSC-667-867/lab2-MosesMartinez/issues"
+  },
+  "homepage": "https://github.com/SFSU-CSC-667-867/lab2-MosesMartinez#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
