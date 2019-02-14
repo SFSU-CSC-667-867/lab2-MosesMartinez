@@ -10,8 +10,8 @@ app.get('/hello', (req, res) => {
 });
 app.get('/add', (req, res) => res.send('00000!'));
 app.get('/network', (req, res) => {
-    axios.get('http://localhost:3000/world')
-    .then((res) => 
+    axios.get('http://localhost:3001/world')
+    .then((networkResponse) => 
     {
         res.send(networkResponse.data);
     })
